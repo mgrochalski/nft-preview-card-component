@@ -1,0 +1,17 @@
+@import "src/variables.scss";
+
+.img {
+  width: 302px;
+  height: 302px;
+  margin-top: 24px;
+  border-radius: 8px;
+
+  &:hover {
+    filter: opacity(0.5) drop-shadow(0 0 0 #00FFF8);
+    mix-blend-mode: normal;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 302px;
+    height: 302px;
+  }
+}

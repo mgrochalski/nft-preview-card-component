@@ -1,0 +1,44 @@
+@import "src/variables.scss";
+
+.main {
+  display: flex;
+  align-items: center;
+  margin: 16px 24px 0 24px;
+  gap: 16px;
+}
+
+.img {
+  width: 33px;
+  height: 33px;
+
+  border: 1px solid $white;
+  border-radius: 50%;
+}
+
+.text {
+  display: flex;
+  gap: 5px;
+}
+
+.creation {
+  font-family: $font-family;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: $soft-blue;
+}
+
+.userName {
+  font-family: $font-family;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: $white;
+
+  &:hover {
+    color: $cyan;
+    cursor: pointer;
+  }
+}
