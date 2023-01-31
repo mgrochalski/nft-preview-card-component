@@ -1,0 +1,9 @@
+@import "src/variables.scss";
+
+.main {
+  width: 350px;
+  height: 596px;
+  background-color: $background-secondary;
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.0952917);
+  border-radius: 15px;
+}

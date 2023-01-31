@@ -1,0 +1,13 @@
+@import "src/variables.scss";
+
+body {
+  background-color: $background;
+}
+
+.App {
+  text-align: center;
+  margin-top: 152px;
+  display: flex;
+  justify-content: space-around;
+}
+

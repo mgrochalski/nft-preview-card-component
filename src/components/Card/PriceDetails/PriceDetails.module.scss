@@ -1,0 +1,31 @@
+@import "src/variables.scss";
+
+
+.details {
+  margin: 24px 24px 0 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.price {
+  font-family: $font-family;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: $cyan;
+  display: flex;
+  gap: 7px;
+}
+
+.date {
+  font-family: $font-family;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: $soft-blue;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
