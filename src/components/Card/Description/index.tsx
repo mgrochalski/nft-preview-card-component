@@ -1,11 +1,11 @@
 import styles from './Description.module.scss';
 import React from "react";
 
-interface descriptionProps {
+interface DescriptionProps {
     description: string
 }
 
-const Description = ({description}: descriptionProps) => (
+const Description: React.FC<DescriptionProps> = ({description}) => (
     <div className={styles.description}>
         {description}
     </div>

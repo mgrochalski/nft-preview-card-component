@@ -1,11 +1,11 @@
 import styles from './Title.module.scss';
 import React from "react";
 
-interface titleProps {
+interface TitleProps {
     title: string
 }
 
-const title = ({title}: titleProps) => (
+const title: React.FC<TitleProps> = ({title}) => (
     <div className={styles.title}>
         {title}
     </div>

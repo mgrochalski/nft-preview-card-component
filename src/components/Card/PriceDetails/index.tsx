@@ -3,12 +3,12 @@ import ethereumImg from "src/images/icon-ethereum.svg";
 import clockImg from "src/images/icon-clock.svg";
 import React from "react";
 
-interface priceDetailsProps {
+interface PriceDetailsProps {
     price: number,
     days: number,
 }
 
-const PriceDetails = ({price, days}: priceDetailsProps) => (
+const PriceDetails: React.FC<PriceDetailsProps> = ({price, days}) => (
     <div className={styles.details}>
         <div className={styles.price}>
             <img src={ethereumImg} alt='ethereum'/>

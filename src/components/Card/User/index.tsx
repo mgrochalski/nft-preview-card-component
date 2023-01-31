@@ -2,11 +2,11 @@ import React from 'react';
 import styles from './User.module.scss';
 import avatarImg from 'src/images/image-avatar.png';
 
-interface userProps {
+interface UserProps {
     userName: string
 }
 
-const User = ({userName}: userProps) => (
+const User: React.FC<UserProps> = ({userName}) => (
     <div className={styles.main}>
         <img src={avatarImg} alt='' className={styles.img}/>
         <div className={styles.text}>

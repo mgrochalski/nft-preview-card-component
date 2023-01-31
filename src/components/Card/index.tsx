@@ -7,9 +7,9 @@ import Bar from "src/components/Card/Bar";
 import User from "src/components/Card/User";
 import MainImage from "src/components/Card/MainImage";
 
-const Card = () => (
+const Card: React.FC = () => (
     <div className={styles.main}>
-        <MainImage />
+        <MainImage/>
         <Title title='Equilibrium #3429'/>
         <Description description='Our Equilibrium collection promotes balance and calm.'/>
         <PriceDetails price={0.041} days={3}/>

@@ -1,8 +1,8 @@
 import styles from './Bar.module.scss';
 import React from "react";
 
-const Bar = () => (
-    <div className={styles.bar} ></div>
+const Bar: React.FC = () => (
+    <div className={styles.bar}/>
 )
 
 export default Bar;

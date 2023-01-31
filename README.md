@@ -16,6 +16,7 @@ This is a solution to the [NFT preview card component coding challenge on Fronte
 ### Built with
 
 - CSS / HTML
+- [TypeScript](https://www.typescriptlang.org/)
 - [SCSS](https://sass-lang.com/)
 - [BEM](https://getbem.com/)
 - [ReactJS](https://reactjs.org/)
